@@ -1,0 +1,377 @@
+{
+  "designSystem": {
+    "name": "Edubox Educational Platform",
+    "version": "1.0",
+    "description": "Modern educational platform design system with vibrant colors and clean typography",
+    
+    "brandColors": {
+      "primary": {
+        "teal": "#1B9C8A",
+        "darkTeal": "#0F5D56",
+        "lightTeal": "#E6F7F5"
+      },
+      "secondary": {
+        "orange": "#FF6B35",
+        "coral": "#FF8B70",
+        "lightOrange": "#FFF2EF"
+      },
+      "accent": {
+        "yellow": "#FFD700",
+        "lightYellow": "#FFF8DC",
+        "pink": "#FFB6C1"
+      },
+      "neutral": {
+        "white": "#FFFFFF",
+        "lightGray": "#F8F9FA",
+        "mediumGray": "#E9ECEF",
+        "darkGray": "#6C757D",
+        "black": "#212529"
+      }
+    },
+    
+    "gradients": {
+      "primary": {
+        "direction": "135deg",
+        "stops": ["#1B9C8A", "#0F5D56"]
+      },
+      "accent": {
+        "direction": "45deg",
+        "stops": ["#FFD700", "#FF6B35"]
+      },
+      "background": {
+        "direction": "180deg",
+        "stops": ["#F8F9FA", "#E6F7F5"]
+      }
+    },
+    
+    "typography": {
+      "fontFamily": {
+        "primary": "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+        "secondary": "Poppins, sans-serif"
+      },
+      "hierarchy": {
+        "h1": {
+          "fontSize": "3.5rem",
+          "fontWeight": "700",
+          "lineHeight": "1.2",
+          "letterSpacing": "-0.02em"
+        },
+        "h2": {
+          "fontSize": "2.5rem",
+          "fontWeight": "600",
+          "lineHeight": "1.3",
+          "letterSpacing": "-0.01em"
+        },
+        "h3": {
+          "fontSize": "1.875rem",
+          "fontWeight": "600",
+          "lineHeight": "1.4"
+        },
+        "h4": {
+          "fontSize": "1.25rem",
+          "fontWeight": "600",
+          "lineHeight": "1.5"
+        },
+        "body": {
+          "fontSize": "1rem",
+          "fontWeight": "400",
+          "lineHeight": "1.6"
+        },
+        "small": {
+          "fontSize": "0.875rem",
+          "fontWeight": "400",
+          "lineHeight": "1.5"
+        }
+      }
+    },
+    
+    "spacing": {
+      "scale": "8px",
+      "values": {
+        "xs": "4px",
+        "sm": "8px",
+        "md": "16px",
+        "lg": "24px",
+        "xl": "32px",
+        "2xl": "48px",
+        "3xl": "64px",
+        "4xl": "96px"
+      }
+    },
+    
+    "borderRadius": {
+      "sm": "6px",
+      "md": "12px",
+      "lg": "16px",
+      "xl": "24px",
+      "full": "9999px"
+    },
+    
+    "shadows": {
+      "sm": "0 2px 4px rgba(0, 0, 0, 0.1)",
+      "md": "0 4px 8px rgba(0, 0, 0, 0.15)",
+      "lg": "0 8px 24px rgba(0, 0, 0, 0.15)",
+      "xl": "0 12px 48px rgba(0, 0, 0, 0.2)"
+    },
+    
+    "components": {
+      "buttons": {
+        "primary": {
+          "backgroundColor": "#1B9C8A",
+          "color": "#FFFFFF",
+          "padding": "12px 24px",
+          "borderRadius": "8px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "border": "none",
+          "shadow": "0 2px 4px rgba(27, 156, 138, 0.3)",
+          "hoverBackgroundColor": "#0F5D56"
+        },
+        "secondary": {
+          "backgroundColor": "#FF6B35",
+          "color": "#FFFFFF",
+          "padding": "12px 24px",
+          "borderRadius": "8px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "border": "none",
+          "shadow": "0 2px 4px rgba(255, 107, 53, 0.3)",
+          "hoverBackgroundColor": "#E55A2B"
+        },
+        "outline": {
+          "backgroundColor": "transparent",
+          "color": "#1B9C8A",
+          "padding": "12px 24px",
+          "borderRadius": "8px",
+          "fontSize": "14px",
+          "fontWeight": "600",
+          "border": "2px solid #1B9C8A",
+          "hoverBackgroundColor": "#1B9C8A",
+          "hoverColor": "#FFFFFF"
+        }
+      },
+      
+      "cards": {
+        "default": {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": "16px",
+          "padding": "24px",
+          "shadow": "0 4px 8px rgba(0, 0, 0, 0.1)",
+          "border": "1px solid #E9ECEF"
+        },
+        "featured": {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": "16px",
+          "padding": "32px",
+          "shadow": "0 8px 24px rgba(0, 0, 0, 0.15)",
+          "border": "none",
+          "gradient": "linear-gradient(135deg, #1B9C8A 0%, #0F5D56 100%)"
+        },
+        "testimonial": {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": "12px",
+          "padding": "20px",
+          "shadow": "0 2px 8px rgba(0, 0, 0, 0.08)",
+          "border": "1px solid #E9ECEF"
+        }
+      },
+      
+      "navigation": {
+        "header": {
+          "backgroundColor": "#FFFFFF",
+          "height": "80px",
+          "padding": "0 24px",
+          "shadow": "0 2px 4px rgba(0, 0, 0, 0.1)",
+          "borderBottom": "1px solid #E9ECEF"
+        },
+        "links": {
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "color": "#6C757D",
+          "hoverColor": "#1B9C8A",
+          "padding": "8px 16px"
+        }
+      },
+      
+      "sections": {
+        "hero": {
+          "backgroundGradient": "linear-gradient(135deg, #1B9C8A 0%, #0F5D56 100%)",
+          "color": "#FFFFFF",
+          "padding": "80px 24px",
+          "textAlign": "center"
+        },
+        "features": {
+          "backgroundColor": "#F8F9FA",
+          "padding": "80px 24px"
+        },
+        "testimonials": {
+          "backgroundColor": "#FFFFFF",
+          "padding": "80px 24px"
+        }
+      },
+      
+      "statistics": {
+        "container": {
+          "backgroundColor": "#1B9C8A",
+          "color": "#FFFFFF",
+          "padding": "40px 24px",
+          "textAlign": "center"
+        },
+        "item": {
+          "display": "flex",
+          "flexDirection": "column",
+          "alignItems": "center",
+          "gap": "8px"
+        },
+        "number": {
+          "fontSize": "2.5rem",
+          "fontWeight": "700",
+          "color": "#FFFFFF"
+        },
+        "label": {
+          "fontSize": "14px",
+          "fontWeight": "500",
+          "color": "#E6F7F5"
+        }
+      },
+      
+      "categoryCards": {
+        "container": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(250px, 1fr))",
+          "gap": "24px",
+          "padding": "40px 0"
+        },
+        "card": {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": "12px",
+          "padding": "32px 24px",
+          "textAlign": "center",
+          "shadow": "0 4px 8px rgba(0, 0, 0, 0.1)",
+          "border": "1px solid #E9ECEF",
+          "transition": "transform 0.2s ease"
+        },
+        "featured": {
+          "backgroundColor": "#1B9C8A",
+          "color": "#FFFFFF"
+        },
+        "icon": {
+          "width": "48px",
+          "height": "48px",
+          "marginBottom": "16px"
+        }
+      },
+      
+      "teamGrid": {
+        "container": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(auto-fit, minmax(200px, 1fr))",
+          "gap": "24px",
+          "padding": "40px 0"
+        },
+        "memberCard": {
+          "backgroundColor": "#FFFFFF",
+          "borderRadius": "12px",
+          "padding": "24px",
+          "textAlign": "center",
+          "shadow": "0 2px 8px rgba(0, 0, 0, 0.1)"
+        },
+        "avatar": {
+          "width": "80px",
+          "height": "80px",
+          "borderRadius": "50%",
+          "marginBottom": "16px"
+        }
+      }
+    },
+    
+    "layoutPatterns": {
+      "container": {
+        "maxWidth": "1200px",
+        "margin": "0 auto",
+        "padding": "0 24px"
+      },
+      "sectionSpacing": {
+        "marginBottom": "80px"
+      },
+      "grid": {
+        "twoColumn": {
+          "display": "grid",
+          "gridTemplateColumns": "1fr 1fr",
+          "gap": "48px",
+          "alignItems": "center"
+        },
+        "threeColumn": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(3, 1fr)",
+          "gap": "32px"
+        },
+        "fourColumn": {
+          "display": "grid",
+          "gridTemplateColumns": "repeat(4, 1fr)",
+          "gap": "24px"
+        }
+      }
+    },
+    
+    "visualElements": {
+      "decorativeShapes": {
+        "usage": "Subtle geometric patterns and curved lines as background elements",
+        "opacity": "0.1 to 0.3",
+        "colors": ["#1B9C8A", "#FF6B35", "#FFD700"]
+      },
+      "illustrations": {
+        "style": "Modern, flat design with rounded corners",
+        "colors": "Brand colors with soft gradients",
+        "usage": "Supporting content, not dominating"
+      },
+      "icons": {
+        "style": "Outline style with consistent stroke width",
+        "size": "24px, 32px, 48px",
+        "colors": ["#1B9C8A", "#6C757D"]
+      }
+    },
+    
+    "responsive": {
+      "breakpoints": {
+        "mobile": "375px",
+        "tablet": "768px",
+        "desktop": "1024px",
+        "large": "1200px"
+      },
+      "mobileAdjustments": {
+        "typography": {
+          "h1": "2.5rem",
+          "h2": "2rem",
+          "h3": "1.5rem"
+        },
+        "spacing": {
+          "sectionPadding": "40px 16px",
+          "cardPadding": "16px"
+        },
+        "grid": {
+          "columns": "1fr"
+        }
+      }
+    },
+    
+    "designPrinciples": {
+      "colorUsage": {
+        "primary": "Use teal (#1B9C8A) for primary actions, navigation, and key elements",
+        "secondary": "Use orange (#FF6B35) for secondary actions and accents",
+        "neutral": "Use grays for text hierarchy and subtle backgrounds",
+        "accent": "Use yellow sparingly for highlights and call-to-action elements"
+      },
+      "layout": {
+        "whitespace": "Generous use of whitespace for clean, readable design",
+        "alignment": "Consistent left-alignment for text, center-alignment for hero sections",
+        "hierarchy": "Clear visual hierarchy through typography, spacing, and color"
+      },
+      "imagery": {
+        "photos": "High-quality, diverse, professional photos with warm tones",
+        "illustrations": "Complementary to photos, not competing",
+        "consistency": "Consistent style across all visual elements"
+      }
+    }
+  }
+}

@@ -1,10 +1,155 @@
 {
-  "designSystem": {
-    "name": "Edubox Educational Platform",
-    "version": "1.0",
-    "description": "Modern educational platform design system with vibrant colors and clean typography",
-    
-    "brandColors": {
+  "page": {
+    "title": "MatchCare – Trusted Family & Nanny Connections",
+    "layout": "single-page",
+    "theme": {
+      "colors": {
+        "primary": "#4A90E2",
+        "secondary": "#F9D923",
+        "accent": "#B39DDB",
+        "background": "#FFFFFF",
+        "neutral": {
+          "white": "#FFFFFF",
+          "lightGray": "#F8F9FA",
+          "mediumGray": "#E9ECEF",
+          "darkGray": "#6C757D",
+          "black": "#212529"
+        }
+      },
+      "font": "Inter, Arial, sans-serif",
+      "mobileFirst": true,
+      "ctaFloatingMobile": true,
+      "sectionRevealAnimation": "fade-in or slide-up"
+    },
+    "sections": [
+      {
+        "component": "HeroSection",
+        "props": {
+          "headline": "Care for those you love, with the ones you trust.",
+          "subheadline": "MatchCare connects families and nannies based on shared values, trust, and real compatibility.",
+          "caption": "Made by caregivers, for caregivers.",
+          "cta": "Join the MatchCare Waitlist",
+          "ctaLink": "#sign-up-form",
+          "imageOptions": [
+            "App mockup on a clean mobile device",
+            "Warm photo of a nanny playing with a child while the parent looks on"
+          ]
+        },
+        "layoutHint": "centered, large headline, image right on desktop, image above on mobile"
+      },
+      {
+        "component": "WhyChooseSection",
+        "props": {
+          "title": "Why families and nannies choose MatchCare?",
+          "items": [
+            {
+              "icon": "lock",
+              "title": "Safety you can trust",
+              "description": "Verified profiles, ID checks, and features designed to protect everyone involved."
+            },
+            {
+              "icon": "target",
+              "title": "Matches that truly fit",
+              "description": "We go beyond availability — we match based on values, parenting style, and connection."
+            },
+            {
+              "icon": "smartphone",
+              "title": "Simple, intuitive app",
+              "description": "No clutter, no confusion. Just a clean, easy-to-use tool made for your daily life."
+            },
+            {
+              "icon": "handshake",
+              "title": "A real support network",
+              "description": "We don’t stop at the match. We offer content, guidance, and community to care for those who care."
+            },
+            {
+              "icon": "heart",
+              "title": "Built by caregivers",
+              "description": "Created by moms and childcare professionals who know exactly what it takes."
+            }
+          ]
+        },
+        "layoutHint": "5 feature cards, icons, 2-column on desktop, stacked on mobile"
+      },
+      {
+        "component": "WhyCreatedSection",
+        "props": {
+          "title": "Why I Created MatchCare",
+          "quote": "I created MatchCare as both a caregiver and an entrepreneur. I know how hard it is to find someone you can truly trust to care for what’s most precious to you. MatchCare was born out of that challenge — with empathy, technology, and a real support system.",
+          "author": "Carol, founder of MatchCare",
+          "communityNote": "We’re here to be your trusted community. Come be a part of it."
+        },
+        "layoutHint": "quote block, founder photo (optional), warm background"
+      },
+      {
+        "component": "GettingStartedSection",
+        "props": {
+          "title": "Getting Started is Simple",
+          "steps": [
+            {
+              "step": 1,
+              "title": "Create your profile",
+              "description": "Tell us who you are, your preferences, and what really matters to you."
+            },
+            {
+              "step": 2,
+              "title": "Find trustworthy matches",
+              "description": "Get personalized suggestions based on compatibility — not just availability."
+            },
+            {
+              "step": 3,
+              "title": "Build your support network",
+              "description": "Chat, schedule, and connect safely. We're here to support every step of the way."
+            }
+          ],
+          "cta": "Ready to get started? Join the waitlist below",
+          "ctaLink": "#sign-up-form"
+        },
+        "layoutHint": "3 step cards, horizontal on desktop, vertical on mobile"
+      },
+      {
+        "component": "SignUpFormSection",
+        "props": {
+          "headline": "Be the first to try MatchCare!",
+          "fields": [
+            { "label": "Name", "type": "text", "required": false },
+            { "label": "Email", "type": "email", "required": true },
+            { "label": "I am a", "type": "radio", "options": ["Family", "Nanny"], "required": true },
+            { "label": "I want to receive exclusive content on childcare and child development", "type": "checkbox", "required": false }
+          ],
+          "bonus": "Sign up to get early access to the app + receive expert content on parenting, development, and family wellness.",
+          "cta": "Join the MatchCare Waitlist",
+          "privacyNote": "Your information is safe with us. No spam, ever."
+        },
+        "layoutHint": "card with form, mobile-friendly, CTA button fixed on mobile"
+      },
+      {
+        "component": "FooterSection",
+        "props": {
+          "title": "Let’s stay connected:",
+          "links": [
+            { "icon": "instagram", "label": "@matchcarehub", "url": "https://www.instagram.com/matchcarehub" },
+            { "icon": "email", "label": "contact@matchcare.com", "url": "mailto:contact@matchcare.com" }
+          ],
+          "note": "We’re currently in pre-launch mode. More updates coming soon!",
+          "termsLink": {
+            "label": "Link to Terms of Use & Privacy Policy",
+            "url": "#"
+          }
+        },
+        "layoutHint": "simple, horizontal on desktop, stacked on mobile, brand colors"
+      }
+    ]
+  }
+}
+
+    "layout": "single-page",
+    "theme": {
+      "colors": {
+        "primary": "#4A90E2", // blue
+        "secondary": "#F9D923", // yellow
+        "accent": "#B39DDB", // lilac
+        "background": "#FFFFFF"
       "primary": {
         "teal": "#1B9C8A",
         "darkTeal": "#0F5D56",

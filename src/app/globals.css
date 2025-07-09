@@ -3,6 +3,10 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --blue: #3FA1FD;
+  --cyan: #58FCFF;
+  --purple: #FA6AFF;
+  --gold: #FFB501;
 }
 
 @theme inline {
@@ -16,7 +20,12 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
-  }
+    --primary: #9C3BEE;
+    --blue: #3FA1FD;
+    --cyan: #58FCFF;
+    --purple: #FA6AFF;
+    --gold: #FFB501;
+    }
 }
 
 body {
